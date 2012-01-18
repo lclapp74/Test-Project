@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProject", "TestProject\TestProject.vcxproj", "{EA1F77D1-60FE-420B-8DD9-B1398DB8533B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B52AE542-2857-4FC4-B5DB-ECCB1E73275D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TestProject.vsmdi = TestProject.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TestProject.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1F77D1-60FE-420B-8DD9-B1398DB8533B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA1F77D1-60FE-420B-8DD9-B1398DB8533B}.Debug|Win32.Build.0 = Debug|Win32
+		{EA1F77D1-60FE-420B-8DD9-B1398DB8533B}.Release|Win32.ActiveCfg = Release|Win32
+		{EA1F77D1-60FE-420B-8DD9-B1398DB8533B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
